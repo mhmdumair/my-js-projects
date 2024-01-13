@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #7f8c8d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 80%;
+    width: 60%;
+    max-width: 600px;
+    max-width: 600px;
+    background: #fff;
+    position: relative;
+    
+}
+.tool{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #636e72;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+.form-group label{
+    color: #fff;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.form-group label span{
+    font-size: 15px;
+    color: red;
+    margin-left: 15px;
+    background: #ccc;
+    padding: 2px 5px;
+}
+.form-group textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    resize: none;
+    height: 60px;
+    font-size: 12px;
+    padding: 5px;
+}
+.form-group input[type='range']{
+    width: 94%;
+}
+.form-group button{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    background-color: red;
+    width: 90%;
+    padding: 8px 0;
+    border: 0;
+    outline: 0;
+    margin-top: 10px;
+    opacity: 0.9;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+.form-group button:hover{
+    opacity: 0.7;
+
+}
+.form-group button:active{
+    scale: 1.05;
+}
+select{
+    width: 90%;
+}

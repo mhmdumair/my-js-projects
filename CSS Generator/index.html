@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tool">
+            <div class="form-group">
+                <label for="all">All Corners <span id="all-value">10px</span></label>
+                <input type="range" id="all" value="10" max="300" min="0">
+            </div>
+            <div class="form-group">
+                <label for="all">Border size <span id="brd-value">10px</span></label>
+                <input type="range" id="size" value="10" max="100" min="0">
+            </div>
+            
+            <div class="form-group">
+                <label for="border-style">Border Style</label>
+                <select id="border-style">
+                    <option>solid</option>
+                    <option>double</option>
+                    <option>dotted</option>
+                    <option>dashed</option>
+                    <option>groove</option>
+                    <option>ridge</option>
+                    <option>inset</option>
+                    <option>outset</option>
+                    <option>none</option>
+                    <option>hidden</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="color">Border Color</label>
+                <input type="color" id="color">
+            </div>
+
+            <div class="form-group">
+                <textarea id="code" ></textarea>
+                <button id="copy">Copy code</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

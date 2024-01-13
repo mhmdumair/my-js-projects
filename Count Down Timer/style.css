@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@200;300;400;600&family=Roboto:wght@400;500;700&display=swap');
+
+
+
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("pexels-craig-adderley-1671881.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 20px;
+    background-color: rgba(140, 130, 130,0.4);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+    padding: 10px;
+}
+p{
+    font-size: 15px;
+}
+.newYear{
+    font-family: "Inspiration";
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.box{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.7);
+}
+
+@media (min-width:576px){
+    .newYear{
+        font-size: 100px;
+        padding: 10px;
+    }
+}
+@media (min-width:768px){
+    .newYear{
+        font-size: 150px;
+    }
+    .box h2{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+}
